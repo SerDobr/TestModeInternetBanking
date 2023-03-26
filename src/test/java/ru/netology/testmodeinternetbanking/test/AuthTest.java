@@ -1,18 +1,18 @@
-package ru.netology.TestModeInternetBanking.test;
+package ru.netology.testmodeinternetbanking.test;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import ru.netology.TestModeInternetBanking.data.DataGenerator;
+
 
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
-import static ru.netology.TestModeInternetBanking.data.DataGenerator.Registration.getRegisteredUser;
-import static ru.netology.TestModeInternetBanking.data.DataGenerator.Registration.getUser;
-import static ru.netology.TestModeInternetBanking.data.DataGenerator.getRandomLogin;
-import static ru.netology.TestModeInternetBanking.data.DataGenerator.getRandomPassword;
+import static ru.netology.testmodeinternetbanking.data.DataGenerator.Registration.getRegisteredUser;
+import static ru.netology.testmodeinternetbanking.data.DataGenerator.Registration.getUser;
+import static ru.netology.testmodeinternetbanking.data.DataGenerator.getRandomLogin;
+import static ru.netology.testmodeinternetbanking.data.DataGenerator.getRandomPassword;
 
 
 class AuthTest {
